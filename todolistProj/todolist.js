@@ -1,21 +1,10 @@
 
 
-// let myAdd = document.getElementById('addBtn');
-// let myDelete = document.getElementById('deleteBtn');
 let myTableBody = document.getElementById('tBodyId');
-
-// let myShowModel = document.getElementById('showModelId'); 
-
-// let myClearList = document.getElementById('clearListId');
-
-// let myShowDesModel = document.getElementById('showDesModelId');
 
 // view
 let myModelTit = document.getElementById('modelTitleId');
 let myModelDesc = document.getElementById('modelDescriptionId');
-
-
-
 
 //Add item into a Todo 
 function addItemFn() 
@@ -90,11 +79,6 @@ function rowStr()
     myTableBody.innerHTML = str;
 }
 
-// on click add Fn 
-// myAdd.addEventListener('click', function() {
-//     addItemFn();
-// });
-
 // refresh activity call
 reActivity();
 
@@ -145,7 +129,6 @@ function viewDescFn(myViewIndex)
               
               <div class="form-text">
                 <ul>
-                 <li>todo can also be update...</li>
                  <li>from right bottom corner you can extract list for better view..</li>
                 </ul>
               </div>
@@ -153,8 +136,6 @@ function viewDescFn(myViewIndex)
 
             <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary" onclick="updateChanges()"
-            >Save changes</button>
           </div>
             `;
         }
@@ -166,16 +147,6 @@ function viewDescFn(myViewIndex)
 
 }
 
-
-function updateChanges()
-{
-    console.log("hello")
-    
-    // itemArray
-    
-    
-
-}
 
 
 
